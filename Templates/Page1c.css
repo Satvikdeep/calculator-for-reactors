@@ -1,0 +1,146 @@
+.mac-book-air-1 {
+    background: #FFFFFF;
+    display: flex;
+    padding: 92px 0.1px 45px 0;
+    width: auto;
+    box-sizing: border-box;
+    display:flex; 
+    flex-direction:column; 
+    justify-content:center
+  }
+  .mac-book-air-1 .cll-122-chemical-reaction-engg {
+      margin: 0 0 57px 0.1px;
+      display: inline-block;
+      text-align: center;
+      overflow-wrap: break-word;
+      font-family: 'Kailasa', 'Roboto Condensed';
+      font-weight: 400;
+      font-size: 24px;
+      display:flex; 
+      flex-direction:column; 
+      justify-content:center;
+      color: #000000;
+    }
+  .mac-book-air-1 .containers .calculator-for-reactors {
+    margin: 0 0.9px 155px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Lateef';
+    font-weight: 400;
+    font-size: 55px;
+    color: #000000;
+  }
+  .mac-book-air-1 .containers .select-the-reactor {
+    margin: 0 0 22px 0.1px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+  }
+  .mac-book-air-1 .cstr {
+    margin: 0 21.9px 2px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Kailasa', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 28px;
+    cursor: pointer;
+    color: #000000;
+  }
+  .mac-book-air-1 .plug-flow-reactor {
+    margin-right: 1px;
+    overflow-wrap: break-word;
+    font-family: 'Kailasa', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+  }
+  .mac-book-air-1 .pfr {
+    position: absolute;
+    left: 50%;
+    bottom: 19px;
+    translate: -50% 0;
+    overflow-wrap: break-word;
+    font-family: 'Kailasa', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 28px;
+    color: #000000;
+    cursor: pointer;
+  }
+  .mac-book-air-1 .group-1 {
+    margin-right: 167px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .mac-book-air-1 .group-2 {
+    position: relative;
+    margin-top: 55px;
+    display: flex;
+    width: 266px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .mac-book-air-1 .maxresdefault-removebg-preview-1 {
+    background: url('pic1.png');
+    margin: 0 0px 16px 17.1px;
+    width: 252px;
+    height: 215px;
+    cursor: pointer
+  }
+  .mac-book-air-1 .maxresdefault-removebg-preview-2 {
+    background: url('pic2.png');
+    margin-bottom: 88px;
+    width: 266px;
+    height: 123px;
+    cursor: pointer
+  }
+  .mac-book-air-1 .rectangle-1 {
+    background: #ADE1FF;
+    position: absolute;
+    left: 0px;
+    top: 220px;
+    right: 0px;
+    height: 64px;
+  }
+  .mac-book-air-1 .continuous-stirred-tank-reactor {
+    margin-right: 2.9px;
+    overflow-wrap: break-word;
+    font-family: 'Kailasa', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+  }
+  .mac-book-air-1 .container {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .mac-book-air-1 .container-5 {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .mac-book-air-1 .container-1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .mac-book-air-1 .container-2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 266px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+
+  

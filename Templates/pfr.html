@@ -1,0 +1,110 @@
+<html>
+<div class="mac-book-air-2">
+    <link rel="stylesheet" href="Page2.css">
+    <div class="container-2">
+      <div class="enter-the-input-flow-relevant-parameters">
+        Enter the input flow &amp; relevant parameters : 
+      </div>
+      <div class="screenshot-20240505-at-8411">
+        <img src="Pic4.png">
+      </div>
+    </div>
+    <form id="inputForm" method="post" action="http://127.0.0.1:5000/cstr">
+        <div class="container-6">
+        <div class="volumetric-flow-rate">
+            Volumetric Flow Rate
+        </div>
+        <div class="rectangle-3">
+            <input type="float" id="volumetricFlowRate" name="volumetricFlowRate" required>
+        </div>
+        <div class="rate_constant">
+            Rate Constant
+        </div>
+        <div class="rectangle-8">
+            <input type="float" id="rate_constant" name="rate_constant" required>
+        </div>
+        <div class="container-8">
+            <div class="state">State</div>
+            <div class="rectangle-14">
+            <select id="state" name="state" required>
+                <option value="">Select a state</option>
+                <option value="Liquid Phase">Liquid Phase</option>
+                <option value="Gas Phase">Gas Phase</option>
+            </select>
+            </div>
+        </div>
+
+        </div>
+        <div class="container-5">
+        <div class="concentration-of-a">
+            Concentration of A
+        </div>
+        <div class="rectangle-4">
+            <input type="float" id="concentrationA" name="concentrationA" required>
+        </div>
+        <div class="stoichiometry-co-eff-of-a">
+            Stoichiometry Co-eff of A
+        </div>
+        <div class="rectangle-9">
+            <input type="float" id="stoichCoeffA" name="stoichCoeffA" required>
+        </div>
+        <div class="expected_conversion">
+            Expected Conversion
+        </div>
+        <div class="rectangle-13">
+            <input type="float" id="x" name="x" required>
+        </div>
+        </div>
+        <div class="container">
+        <div class="concentration-of-b">
+            Concentration of B
+        </div>
+        <div class="rectangle-5">
+            <input type="float" id="concentrationB" name="concentrationB" required>
+        </div>
+        <div class="stoichiometry-co-eff-of-a-3">
+            Stoichiometry Co-eff of B
+        </div>
+        <div class="rectangle-10">
+            <input type="float" id="stoichCoeffB" name="stoichCoeffB" required>
+        </div>
+
+        </div>
+        <div class="container-3">
+        <div class="concentration-of-c">
+            Concentration of C
+        </div>
+        <div class="rectangle-6">
+            <input type="float" id="concentrationc" name="concentrationC" required>
+        </div>
+        <div class="stoichiometry-co-eff-of-a-2">
+            Stoichiometry Co-eff of C
+        </div>
+        <div class="rectangle-11">
+            <input type="float" id="stoichCoeffC" name="stoichCoeffC" required>
+        </div>
+        </div>
+        <div class="container-1">
+        <div class="concentration-of-d">
+            Concentration of D
+        </div>
+        <div class="rectangle-7">
+            <input type="float" id="concentrationD" name="concentrationD" required>
+        </div>
+        <div class="stoichiometry-co-eff-of-a-1">
+            Stoichiometry Co-eff of D
+        </div>
+        <div class="rectangle-12">
+            <input type="float" id="stoichCoeffD" name="stoichCoeffD" required>
+        </div>
+        <div class="container-20">
+            <div class="Submit">
+                <button type="submit">Calculate</button>
+                </a>
+            </div>
+        <div>
+    </form>
+    </div>
+  </div>
+
+  
