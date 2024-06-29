@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reactor Results</title>
+    <style>
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Reactor Results</h1>
+    <h3>Volume of the Reactor : </h3>
+    <p>{{ V1|float }}</p>
+    <h3>Concentration vs. Volume Plot</h3>
+    <img src="data:image/png;base64,{{ c_vs_x_plot }}" alt="Concentration vs. Volume Plot">
+
+    <h2>Levenspiel Plot</h2>
+    <img src="data:image/png;base64,{{ levenspiel_plot }}" alt="Levenspiel Plot">
+
+    {% if reactor_type == 'pfr' %}
+    <h2>Conversion vs. Volume Plot (PFR only)</h2>
+    <img src="data:image/png;base64,{{ x_vs_V_plot }}" alt="Conversion vs. Volume Plot">
+    {% endif %}
+</body>
+</html>
